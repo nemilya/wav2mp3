@@ -1,5 +1,7 @@
+# wav 2 mp3 convert service
+# https://github.com/nemilya/wav2mp3
 #
-# 
+# MIT License
 #
 
 require 'rubygems'
