@@ -1,0 +1,4 @@
+config/*.yml
+public/out/*
+!public/out/folder.me
+client/test.wav.result.mp3
