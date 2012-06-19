@@ -12,7 +12,8 @@ require 'json'
 config_path = File.join("config", "conf.yml")
 
 configure :development do
-  config_path = File.join("config", "conf.local.yml")
+  config_dev_path = File.join("config", "conf.local.yml")
+  config_path = config_dev_path if File.exists?(config_dev_path)
 end
 
 $service_settings = nil
